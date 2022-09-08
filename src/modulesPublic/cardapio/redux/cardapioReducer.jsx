@@ -1,15 +1,11 @@
-import {
-  LISTAR_MEUS_PRODUTOS,
-} from './homeActions'
-
 const initialState = {
-  meusProdutos: [],
+  detalharProduto: [],
 }
 
 export default (state = initialState, { type, payload }) => {
   switch (type) {
-    case LISTAR_MEUS_PRODUTOS:
-      return { ...state, meusProdutos: payload }
+    case 'DETALHAR_PRODUTO':
+      return { ...state, detalharProduto: payload }
     default:
       return state
   }

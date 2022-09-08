@@ -5,15 +5,16 @@ import info from '../utils/info.json'
 import infoLogo from '../utils/logo.png'
 
 import './cardapio.scss'
-import { Menu, IcoMenu } from '../../components'
-import { modalOpen, setSidebarLeft } from '../../layout/redux/layoutActions'
+import { Menu, IcoMenu, Loading } from '../../components'
+import { loading, modalOpen, setSidebarLeft } from '../../layout/redux/layoutActions'
 import { useDispatch, useSelector } from 'react-redux'
 import Detalhar from './detalhar'
+import { detalharProduto, setDetalharProduto } from './redux/cardapioActions'
 
 export default () => {
   const dispatch = useDispatch()
-  const { sidebarLeft } = useSelector(state => state.layoutState)
-
+  const { sidebarLeft, load } = useSelector(state => state.layoutState)
+  
   const menu = [
     {
       id: 'home',
@@ -71,19 +72,16 @@ export default () => {
                   cardapio?.itens?.map(iten=> {
                     console.log(iten, 'iteniteniteniteniteniten');
                     return (
-                      <div key={`cardapio-${iten.id}`}>
-                        <h4>{iten.label}</h4>
-                        <div className='cardapio-info' onClick={()=> dispatch(modalOpen('detalharCardapio'))}>
-                          {iten?.img?<div className='cardapio-info-img'>
-                            <img src={iten.img} title={iten.label} />
-                          </div>
-                          :null}
-                          <div>
-                            <div dangerouslySetInnerHTML={{__html: iten.descricaoBreve}} />
-                            <div className='cardapio-info-preco'>
-                              <span>+</span>
-                              <span>{iten.preco}</span>                             
-                            </div>
+                      <div className='cardapio-info' key={`cardapio-${iten.id}`} onClick={()=> dispatch(detalharProduto(iten))}>
+                        {iten?.img?<div className='cardapio-info-img'>
+                          <img src={iten.img} title={iten.label} />
+                        </div>:null}
+                        <div className='cardapio-info-content'>
+                          <h4>{iten.label}</h4>
+                          <div className='cardapio-info-desc' dangerouslySetInnerHTML={{__html: iten.descricaoBreve}} />
+                          <div className='cardapio-info-preco'>
+                            <span>+</span>
+                            <span>{iten.preco}</span>                             
                           </div>
                         </div>
                       </div>
@@ -98,6 +96,7 @@ export default () => {
         </div>
       </div>
       <Detalhar />
+      {load?<Loading />:null}
     </>
   )
 }

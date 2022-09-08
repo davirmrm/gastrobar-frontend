@@ -61,7 +61,7 @@ export default () => {
           <Menu data={menu} action={e=> menuHandle(e)} />
         </div>
         <div className='box-home'>
-          <div className='carrousel-program'>
+          {/* <div className='carrousel-program'>
             <button className='prev' onClick={e=> handleImg(-1)}>&lt;</button>
             <ul>
               {
@@ -73,7 +73,18 @@ export default () => {
               }
             </ul>
             <button className='next' onClick={e=> handleImg(+1)}>&gt;</button>
-          </div>
+          </div> */}
+           <div className='box-program'>
+              <ul>
+                {
+                  info.programacao?.map(e=>{
+                    return (
+                      <li key={`programacao-${e.id}`}><img className={`img${e.id}`} src={e.img} /></li>
+                    )
+                  })
+                }
+              </ul>
+           </div>
         </div>
       </div>
     </>

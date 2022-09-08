@@ -1,0 +1,75 @@
+:root {
+  /* --primary-bg: #70b131;
+  --primary-bgh: #7ec537;
+  --primary-color: #fff; */
+
+  --primary-bg: #6f5938;
+  --primary-bgh: #614b2b;
+  --primary-color: #ffffff;
+
+  --secondary-bg: #fff;
+  --secondary-bgh: #acacac;
+  --secondary-color: #252d39;
+
+  --success-bg: #00a65a;
+  --success-bgh: #028a4d;
+  --success-color: #fff;
+
+  --error-bg: #dd4b39;
+  --error-bgh: #bb3725;
+  --error-color: #fff;
+
+  --warning-bg: #f39c12;
+  --warning-bgh: #d3860c;
+  --warning-color: #fff;
+
+  --info-bg: #63a2f3;
+  --info-bgh: #3d8df5;
+  --info-color: #fff;
+
+  --scrollbar-track: #333;
+  --scrollbar-thumb: #bfba90;
+  --scrollbar-thumbh: #6f5938;
+
+  --background-page: #000;
+  --color-page: #bfba90;
+  --background-container: #403331;
+  --color-container: #bfba90;
+  --background-page-container: #403331;
+  --color-page-container: #bfba90;
+  --background-page-container-shadow: #cacaca;
+
+  --background-header: #000;
+  --background-header-h: #6f5938;
+  --background-header-b: #bfba90;
+  --color-header: #bfba90;
+  --background-top-header: #6f5938;
+
+  --background-sidebar: #311d1a;
+  --background-sidebar-h: #6f5938;
+  --background-sidebar-hc: #3f312e;
+  --color-sidebar: #bfba90;
+  --color-sidebar-h: #bfba90;
+
+  --background-footer: #000;
+  --background-footer-h: #000;
+  --color-footer: #bfba90;
+
+  --input-bg: #fff;
+  --input-bgh: #666;
+  --input-color: #252d39;
+
+  --list-bg: transparent;
+  --list-bg-h: #BBC1C9;
+  --list-color: #515252;
+  --list-color-h: #515252;
+
+  --list-bg-header: #ECECEC;
+  --list-color-header: #A2A4A4;
+  --list-border-header: #A2A4A4;
+
+  --modal-bg: #403331;
+  --modal-bgo: #000000c9;
+  --modal-bgh: #6f5938;
+  --modal-color: #bfba90;
+}

@@ -1,0 +1,180 @@
+{
+    "new": [
+        {
+        "id":"GestorDemandante",
+        "name": "Gestor Demandante",
+        "itens": [
+            {"id":"CriarAvaliacoes", "name": "Criar avaliações"},
+            {"id":"EditarAvaliacoes", "name": "Editar avaliações"},
+            {"id":"VisualizarAvaliacoes", "name": "Visualizar avaliações"},
+            {"id":"ExcluirAvaliacoes", "name": "Excluir avaliações"},
+            {"id":"InputarArquivos", "name": "Inputar arquivos"},
+            {"id":"RemoverArquivos", "name": "Remover arquivos"},
+            {"id":"DownloadArquivos", "name": "Download arquivos"},
+            {"id":"SolicitarReavaliacao", "name": "Solicitar reavaliação"},
+            {"id":"VisualizarAnalytics", "name": "Visualizar analytics"},
+            {"id":"ExportacaoDados", "name": "Exportação de dados"}
+        ]
+        },
+        {
+        "id":"UsuarioDemandante",
+        "name": "Usuário Demandante",
+        "itens": [
+            {"id":"CriarAvaliacoes", "name": "Criar avaliações"},
+            {"id":"EditarAvaliacoes", "name": "Editar avaliações"},
+            {"id":"VisualizarAvaliacoes", "name": "Visualizar avaliações"},
+            {"id":"ExcluirAvaliacoes", "name": "Excluir avaliações"},
+            {"id":"InputarArquivos", "name": "Inputar arquivos"},
+            {"id":"RemoverArquivos", "name": "Remover arquivos"},
+            {"id":"DownloadArquivos", "name": "Download arquivos"},
+            {"id":"SolicitarReavaliacao", "name": "Solicitar reavaliação"}
+        ]
+        },
+        {
+        "id":"GestorAvaliador",
+        "name": "Gestor Avaliador",
+        "itens": [
+            {"id":"EditarAvaliacoes", "name": "Editar avaliações"},
+            {"id":"VisualizarAvaliacoes", "name": "Visualizar avaliações"},
+            {"id":"Avaliar", "name": "Avaliar"},
+            {"id":"EnviaRevisao", "name": "Enviar para revisão (adicional info)"},
+            {"id":"EnviarAvaliacaoFinalizada", "name": "Enviar uma avaliação finalizada"},
+            {"id":"RecusarAvaliacao", "name": "Recusar avaliação"},
+            {"id":"InputarArquivos", "name": "Inputar arquivos"},
+            {"id":"RemoverArquivos", "name": "Remover arquivos"},
+            {"id":"DownloadArquivos", "name": "Download arquivos"},
+            {"id":"SolicitarReavaliacao", "name": "Solicitar reavaliação"},
+            {"id":"VisualizarAnalytics", "name": "Visualizar analytics"},
+            {"id":"ExportacaoDados", "name": "Exportação de dados"}
+        ]
+        },
+        {
+        "id":"EngenheiroAvaliador",
+        "name": "Engenheiro Avaliador",
+        "itens": [
+            {"id":"EditarAvaliacoes", "name": "Editar avaliações"},
+            {"id":"VisualizarAvaliacoes", "name": "Visualizar avaliações"},
+            {"id":"Avaliar", "name": "Avaliar"},
+            {"id":"EnviaRevisao", "name": "Enviar para revisão (adicional info)"},
+            {"id":"EnviarAvaliacaoFinalizada", "name": "Enviar uma avaliação finalizada"},
+            {"id":"RecusarAvaliacao", "name": "Recusar avaliação"},
+            {"id":"InputarArquivos", "name": "Inputar arquivos"},
+            {"id":"RemoverArquivos", "name": "Remover arquivos"},
+            {"id":"DownloadArquivos", "name": "Download arquivos"}
+        ]
+        },
+        {
+        "id":"AnalistaAvaliacoes",
+        "name": "Analista de  Avaliações",
+        "itens": [
+            {"id":"EditarAvaliacoes", "name": "Editar avaliações"},
+            {"id":"VisualizarAvaliacoes", "name": "Visualizar avaliações"},
+            {"id":"Avaliar", "name": "Avaliar"},
+            {"id":"EnviaRevisao", "name": "Enviar para revisão (adicional info)"},
+            {"id":"RecusarAvaliacao", "name": "Recusar avaliação"},
+            {"id":"InputarArquivos", "name": "Inputar arquivos"},
+            {"id":"RemoverArquivos", "name": "Remover arquivos"},
+            {"id":"DownloadArquivos", "name": "Download arquivos"}
+        ]
+        },
+        {
+        "id":"admin",
+        "name": "Admin",
+        "itens": [
+            {"id":"CriarAvaliacoes", "name": "Criar avaliações"},
+            {"id":"EditarAvaliacoes", "name": "Editar avaliações"},
+            {"id":"VisualizarAvaliacoes", "name": "Visualizar avaliações"},
+            {"id":"ExcluirAvaliacoes", "name": "Excluir avaliações"},
+            {"id":"Avaliar", "name": "Avaliar"},
+            {"id":"EnviaRevisao", "name": "Enviar para revisão (adicional info)"},
+            {"id":"RecusarAvaliacao", "name": "Recusar avaliação"},
+            {"id":"InputarArquivos", "name": "Inputar arquivos"},
+            {"id":"RemoverArquivos", "name": "Remover arquivos"},
+            {"id":"DownloadArquivos", "name": "Download arquivos"},
+            {"id":"SolicitarReavaliacao", "name": "Solicitar reavaliação"},
+            {"id":"VisualizarAnalytics", "name": "Visualizar analytics"},
+            {"id":"ExportacaoDados", "name": "Exportação de dados"}
+        ]
+        }
+    ],
+    "cc47c7b9-6cd9-4c17-9fef-6f63712338b9": [
+        {
+            "id":"MercadoPrimarioOfertados",
+            "name": "Mercado primário de ofertados",
+            "itens": [
+                {
+                    "id":"MPOvisualizarInformacoes", 
+                    "name": "Visualizar informações"
+                },
+                {
+                    "id":"MPOvisualizarGraficos", 
+                    "name": "Visualizar gráficos"
+                },
+                {
+                    "id":"MPOvisualizarGraficosPadraoConsrutivo", 
+                    "name": "Visualizar gráficos por padrão construtivo"
+                }
+            ]
+        },
+        {
+            "id":"MercadoSecundarioOfertados",
+            "name": "Mercado secundário de ofertados",
+            "itens": [
+                {
+                    "id":"MSOvisualizarInformacoes", 
+                    "name": "Visualizar informações"
+                },
+                {
+                    "id":"MSOvisualizarGraficos", 
+                    "name": "Visualizar gráficos"
+                },
+                {
+                    "id":"MSOvisualizarGraficosPadraoConsrutivo", 
+                    "name": "Visualizar gráficos por padrão construtivo"
+                }
+            ]
+        },
+        {
+            "id":"MercadoTransacionados",
+            "name": "Mercados transacionados",
+            "itens": [
+                {
+                    "id":"MTvisualizarInformacoes", 
+                    "name": "Visualizar informações"
+                },
+                {
+                    "id":"MTvisualizarGraficos", 
+                    "name": "Visualizar gráficos"
+                },
+                {
+                    "id":"MTvisualizarGraficosPadraoConsrutivo", 
+                    "name": "Visualizar gráficos por padrão construtivo"
+                }
+            ]
+        }
+    ],
+    "183d7198-f3eb-4098-aa0f-5379ea14ed3b": [
+        {
+            "id":"estudos",
+            "name": "Estudos ",
+            "itens": [
+                {
+                    "id":"vizualizar", 
+                    "name": "Vizualizar"
+                },
+                {
+                    "id":"salvar", 
+                    "name": "Salvar"
+                },
+                {
+                    "id":"editar", 
+                    "name": "Editar"
+                },
+                {
+                    "id":"remover", 
+                    "name": "Remover"
+                }
+            ]
+        }
+    ]
+}

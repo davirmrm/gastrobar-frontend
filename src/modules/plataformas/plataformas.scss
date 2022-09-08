@@ -1,0 +1,86 @@
+.box-plataformas{
+    .box-filter{
+        padding: 10px 20px 20px 20px;
+        &-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            svg{
+                font-size: 24px;
+            }
+        }
+        .btn-box{
+            margin-top: 50px;
+        }
+    }
+    .select-action-list{
+        background-color: var(--list-bg-header);
+        position: absolute;
+        top: 10px;
+        left: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: calc(100% - 60px);
+        .form-box{
+            margin: 0;
+            padding: 0;
+            button.select-selected{
+                min-height: 18px;
+            }            
+        }
+        .form-select-box{
+            width: 100px;
+        }
+        > span{
+            margin-left: 20px;
+        }
+        
+    }
+
+}
+#root-select .select-acoes{
+    .select-options > div{
+        .ativar{
+            width: 10px;
+            height: 10px;
+            background-color: var(--success-bg);
+            border-radius: 50px;
+            margin-right: 10px;
+        }
+        .inativar{
+            width: 10px;
+            height: 10px;
+            background-color: var(--error-bg);
+            border-radius: 50px;
+            margin-right: 10px;
+        }
+    }
+}
+.modal-plataformas{
+    .content-info{
+        border: 1px solid var(--background-page-container-shadow);
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 15px;
+        &-title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            .form-box{
+                margin: 0;
+                padding: 0;
+                .check-box{
+                    line-height: normal;
+                }
+            }
+        }
+        h6{
+            font-size: 1.1em;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+    
+}

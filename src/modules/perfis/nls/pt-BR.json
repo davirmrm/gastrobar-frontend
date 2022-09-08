@@ -1,0 +1,11 @@
+{
+  "title": "Perfis",
+  "pesquisar": "Pesquisar",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "404": "Erro ao executar.",
+    "500": "Erro ao executar."
+  }
+}

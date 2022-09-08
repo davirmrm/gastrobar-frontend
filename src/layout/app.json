@@ -1,0 +1,12 @@
+{
+  "titulo": "EEmovel | Painel ADM",
+  "menu": [
+    { "id": "usuarios", "label": "Usuário", "go": "/usuarios", "icon": "" },
+    { "id": "providers", "label": "Providers", "go": "/providers" },
+    { "id": "cargos", "label": "Cargos", "go": "/cargos" }
+  ],
+  "menuGestor": [
+  ],
+  "menus": [
+  ]
+}

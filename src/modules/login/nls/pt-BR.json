@@ -1,0 +1,13 @@
+{
+  "title": "Login",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "obrigatorioMin": "Mínimo 6 caracter.",
+    "obrigatorioDiferente": "Senhas não conferem.",
+    "obrigatorioEmailregex": "Digite um e-mail valido.",
+    "usuarioNaoExiste": "Usuário não cadastrado no sistema.",
+    "senhaIncorreta": "Senha incorreta."
+  }
+}

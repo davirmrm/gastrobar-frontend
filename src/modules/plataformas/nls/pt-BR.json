@@ -1,0 +1,14 @@
+{
+  "title": "Plataformas",
+  "pesquisar": "Pesquisar",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "emailExiste": "E-mail já existe em nossa base de dados.",
+    "minCaracterSenha": "Senha deve conter no mínimo 6 caracteres.",
+    "senhaConfirmarDiferente": "Senha e confirmar senha são diferentes.",
+    "usuarioNaoExiste": "Usuário não cadastrado no sistema.",
+    "senhaIncorreta": "Senha incorreta."
+  }
+}

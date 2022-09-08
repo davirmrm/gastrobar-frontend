@@ -1,0 +1,39 @@
+.box-scrool {
+  overflow-y: hidden;
+  overflow-x: auto;
+  .list-box {
+    border-top: 1px solid var(--list-bgh);
+    border-spacing: 0;
+    color: var(--list-color);
+    position: relative;
+    width: 100%;
+    td {
+      border-bottom: 1px solid var(--list-border-header);
+      padding: 2px 10px;
+      .alguns{
+        background-color: var(--list-bgh);
+      }
+    }
+    thead td {
+      background-color: var(--list-bg-header);
+      padding: 8px 10px;
+      color: var(--list-color-header);
+    }
+    tbody tr:hover td {
+      background-color: var(--list-bg);
+    }
+    .actions {
+      white-space: nowrap;
+      width: 1%;
+      button {
+        margin-left: 10px;
+        &:first-child {
+          margin-left: 0px;
+        }
+      }
+    }
+    .text-center {
+      text-align: center;
+    }
+  }  
+}

@@ -1,0 +1,331 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--color-page);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  padding: 8px 15px;
+  transition: all 0.15s;
+  min-height: 46px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+
+  &.circle {
+    align-items: center;
+    border-radius: 50px;
+    display: inline-flex;
+    font-size: 1em;
+    justify-content: center;
+    min-height: 34px;
+    min-width: 34px;
+    padding: 6px;
+  }
+  &.transparent{
+    background-color: transparent;
+  }
+  &.small {
+    min-height: 36px;
+    min-width: 36px;
+  }
+  &.block {
+    width: 100%;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+  &:focus {
+    outline: none;
+  }
+  > svg {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  background-color: var(--default-bg);
+  border-color: var(--default-bgh);
+  color: var(--default-color);
+}
+
+.btn.normal.primary {
+  background-color: var(--primary-bg);
+  border-color: var(--primary-bgh);
+  color: var(--primary-color);
+}
+.btn.normal.secondary {
+  background-color: var(--secondary-bg);
+  border-color: var(--secondary-bgh);
+  color: var(--primary-bg);
+}
+.btn.normal.success {
+  background-color: var(--success-bg);
+  border-color: var(--success-bgh);
+  color: var(--success-color);
+}
+.btn.normal.warning {
+  background-color: var(--warning-bg);
+  border-color: var(--warning-bgh);
+  color: var(--warning-color);
+}
+.btn.normal.danger {
+  background-color: var(--error-bg);
+  border-color: var(--error-bgh);
+  color: var(--error-color);
+}
+
+.btn:hover {
+  background-color: var(--default-bgh);
+}
+.btn.normal.primary:hover {
+  background-color: var(--primary-bgh);
+}
+.btn.normal.secondary:hover {
+  background-color: var(--secondary-bgh);
+}
+.btn.normal.success:hover {
+  background-color: var(--success-bgh);
+}
+.btn.normal.warning:hover {
+  background-color: var(--warning-bgh);
+}
+.btn.normal.danger:hover {
+  background-color: var(--error-bgh);
+}
+
+.btn.outline.primary {
+  border-color: var(--primary-bg);
+  color: var(--color-page);
+}
+.btn.outline.secondary {
+  background-color: var(--secondary-bg);
+  border-color: var(--color-page);
+  color: var(--color-page);
+}
+.btn.outline.success {
+  border-color: var(--success-bg);
+  color: var(--color-page);
+}
+.btn.outline.warning {
+  border-color: var(--warning-bg);
+  color: var(--color-page);
+}
+.btn.outline.danger {
+  border-color: var(--error-bg);
+  color: var(--color-page);
+}
+
+.btn.outline.primary:hover {
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+}
+.btn.outline.secondary:hover {
+  background-color: var(--secondary-bgh);
+  color: var(--secondary-color);
+}
+.btn.outline.success:hover {
+  background-color: var(--success-bg);
+  color: var(--success-color);
+}
+.btn.outline.warning:hover {
+  background-color: var(--warning-bg);
+  color: var(--warning-color);
+}
+.btn.outline.danger:hover {
+  background-color: var(--error-bg);
+  color: var(--error-color);
+}
+
+.btn.outlined.primary {
+  border-color: var(--primary-bg);
+  color: var(--primary-bg);
+}
+.btn.outlined.secondary {
+  border-color: var(--secondary-bg);
+  color: var(--secondary-bg);
+}
+.btn.outlined.success {
+  border-color: var(--success-bg);
+  color: var(--success-bg);
+}
+.btn.outlined.warning {
+  border-color: var(--warning-bg);
+  color: var(--warning-bg);
+}
+.btn.outlined.danger {
+  border-color: var(--error-bg);
+  color: var(--error-bg);
+}
+
+.btn.outlined.primary:hover {
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+}
+.btn.outlined.secondary:hover {
+  background-color: var(--secondary-bg);
+  color: var(--secondary-color);
+}
+.btn.outlined.success:hover {
+  background-color: var(--success-bg);
+  color: var(--success-color);
+}
+.btn.outlined.warning:hover {
+  background-color: var(--warning-bg);
+  color: var(--warning-color);
+}
+.btn.outlined.danger:hover {
+  background-color: var(--error-bg);
+  color: var(--error-color);
+}
+
+.link {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-bottom-width: 1px;
+  color: var(--color-page);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.link:active {
+  position: relative;
+  top: 1px;
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link.normal.primary {
+  color: var(--primary-bg);
+}
+.link.normal.secondary {
+  color: var(--secondary-bg);
+}
+.link.normal.success {
+  color: var(--success-bg);
+}
+.link.normal.warning {
+  color: var(--warning-bg);
+}
+.link.normal.danger {
+  color: var(--error-bg);
+}
+.link.normal:hover {
+  opacity: 0.7;
+}
+
+.link.outlined {
+  color: var(--color-page);
+}
+
+.link.outlined.primary:hover {
+  border-color: var(--primary-bg);
+}
+.link.outlined.secondary:hover {
+  border-color: var(--secondary-bg);
+}
+.link.outlined.success:hover {
+  border-color: var(--success-bg);
+}
+.link.outlined.warning:hover {
+  border-color: var(--warning-bg);
+}
+.link.outlined.danger:hover {
+  border-color: var(--error-bg);
+}
+
+.exludeAlert.transparent.normal {
+  display: flex;
+  flex-flow: row nowrap;
+
+  border: none;
+  background: transparent;
+  outline: 0;
+
+  font-size: 14px;
+  color: #A1A9B4;
+  /* color: ${COLORS.whiteA1}; */
+
+  cursor: pointer;
+}
+
+.exludeAlert.transparent.normal > svg {
+  font-size: 16px;
+}
+
+.OpenRealty {
+  display: flex;
+  flex-flow: row nowrap;
+
+  width: 110px;
+  padding: 0;
+  background: transparent;
+  outline: 0;
+  border: unset;
+
+  font-size: 16px;
+  color: #AF3E3E;
+  /* color: ${COLORS.redAF}; */
+
+  cursor: pointer;
+}
+
+.openRealty > svg {
+  position: relative;
+  top: 2px;
+
+  margin-right: 3px;
+}
+
+.ShowOnMap {
+  width: 100px;
+  border: none;
+  background: transparent;
+
+  padding: 0;
+  margin: 0 0 21px 0;
+
+  font-size: 14px;
+  color: #A1A9B4;
+  /* color: ${COLORS.whiteA1}; */
+
+  cursor: pointer;
+}
+
+.ShowOnMap > svg {
+  position: relative;
+    top: 2px;
+
+    margin-right: 3px;
+}
+
+.OpenAdvertsButton {
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+  padding: 10px 17px;
+  /* background: ${({ active }: Props) =>
+    active ? COLORS.gray39 : COLORS.whiteA1};
+  border: 1px solid silver;
+  border-radius: 3px; */
+
+  color: #fff;
+  color: rgb(184, 6, 6);
+
+  transition: 0.3s;
+
+  /* cursor: ${({ active }: Props) => (active ? 'pointer' : 'cursor')}; */
+
+
+}
+
+.OpenAdvertsButton > svg {
+  margin-right: 5px;
+
+  font-size: 18px;
+}

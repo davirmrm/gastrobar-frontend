@@ -1,0 +1,33 @@
+{
+  "title": "Meus produtos",
+  "pesquisar": "Search",
+  "headColProduct": "Product",
+  "headColType": "Type",
+  "headColQtd": "Quantity",
+  "headColPrice": "Price",
+  "headColDate": "Date",
+  "headColAcoes": "Actions",
+  "semRegistros": "No registers",
+  "voucher": "Voucher",
+  "resgatar": "Redeem",
+  "pagar": "Pay",
+  "valorTotal": "Total amount",
+  "remove": "Remove",
+  "descontoAte": "Discount until:",
+  "edit": "Edit",
+  "responderQuestionario": "Answer survey",
+  "visualizar": "View",
+    
+  "comprar": "Buy",
+  "verMais": "See more",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "campoObrigatorio": "Preencha o campo.",
+    "confirmaPagamento": "Payment completed successfully!",
+    "valorPago": "Amount paid",
+    "idTransacao": "Your transaction id",
+    "msgRemover": "Are you sure you want to remove this type of answer?" 
+  }
+}

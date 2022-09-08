@@ -1,0 +1,103 @@
+import React from 'react'
+import { history } from '../../helpers/history'
+import nls from './nls/pt-BR.json'
+import info from '../utils/info.json'
+import infoLogo from '../utils/logo.png'
+
+import './cardapio.scss'
+import { Menu, IcoMenu } from '../../components'
+import { modalOpen, setSidebarLeft } from '../../layout/redux/layoutActions'
+import { useDispatch, useSelector } from 'react-redux'
+import Detalhar from './detalhar'
+
+export default () => {
+  const dispatch = useDispatch()
+  const { sidebarLeft } = useSelector(state => state.layoutState)
+
+  const menu = [
+    {
+      id: 'home',
+      label: 'Home'
+    },
+  ]
+
+  const menuHandle = e =>{
+    console.log(e, 'menuHandle');
+    history.push(e.id === 'home' ? '/' : e.id)
+  }
+
+  const menuHandleItens = e =>{
+    console.log(e, 'menuHandleItens');
+    location.href = `#${e.id}`;
+    dispatch(setSidebarLeft(!sidebarLeft))
+  }
+
+  return (
+    <>
+      <header id='box-header'>
+        <div className='menu-header-btn'>
+          <button
+            className={sidebarLeft ? 'btn-menu open' : 'btn-menu'}
+            onClick={() => dispatch(setSidebarLeft(!sidebarLeft))}
+          >
+            <IcoMenu />
+          </button>
+        </div>
+     
+        <div className='box-logo'>
+          <div><img src={infoLogo} title={info?.nome} /></div> <h1>{info?.nome}</h1>
+        </div>
+
+        <div />
+      </header>
+      <div className='box-public-cardapio'>
+        <div className={sidebarLeft?'menu-cardapio open':'menu-cardapio'}>
+          <Menu data={menu} action={e=> menuHandle(e)} />
+          <div className="menu">
+            {
+              info?.cardapio?.map(e=> <button onClick={()=> menuHandleItens(e)}>{e.title}</button>)
+            }
+          </div>
+        </div>
+        <div className='box-cardapio'>
+          <div className='info-cardapio'>
+            <h2>Cardápio</h2>
+            {
+              info?.cardapio?.map(cardapio=> {
+                console.log(cardapio, 'cardapiocardapiocardapio');
+                return <div key={`cardapio-grupo-${cardapio.id}`} id={cardapio.id}>
+                  <h3>{cardapio.title}</h3>
+                {
+                  cardapio?.itens?.map(iten=> {
+                    console.log(iten, 'iteniteniteniteniteniten');
+                    return (
+                      <div key={`cardapio-${iten.id}`}>
+                        <h4>{iten.label}</h4>
+                        <div className='cardapio-info' onClick={()=> dispatch(modalOpen('detalharCardapio'))}>
+                          {iten?.img?<div className='cardapio-info-img'>
+                            <img src={iten.img} title={iten.label} />
+                          </div>
+                          :null}
+                          <div>
+                            <div dangerouslySetInnerHTML={{__html: iten.descricaoBreve}} />
+                            <div className='cardapio-info-preco'>
+                              <span>+</span>
+                              <span>{iten.preco}</span>                             
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })
+                }
+                </div>
+              })
+            }
+            <p>Copyright © 2020 Buggin IT solution Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </div>
+      <Detalhar />
+    </>
+  )
+}

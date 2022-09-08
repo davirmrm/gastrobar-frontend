@@ -1,0 +1,17 @@
+{
+    "meusDados": "Meus dados",
+    "meusDadosComplementar": "Dados complementares",
+    "mudarSenha": "Mudar senha",
+    "sair": "Sair",
+    
+    "mensagem": {
+        "obrigatorio": "Obrigatório",
+        "camposObrigatorios": "Preencha os campos obrigatórios.",
+        "emailExiste": "Este e-mail já existe em nossa base de dados.",
+        "minCaracterSenha": "Senha deve conter no mínimo 6 caracteres.",
+        "senhaConfirmarDiferente": "Senha e confirmar senha são diferentes.",
+        "usuarioNaoExiste": "Usuário não cadastrado no sistema.",
+        "senhaIncorreta": "Senha incorreta.",
+        "jaCadastradoNewsletter": "E-mail já cadastrado"
+    }
+}

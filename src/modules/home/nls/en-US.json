@@ -1,0 +1,34 @@
+{
+    "title": "My Purchases",
+    "pesquisar": "Search",
+    "headColProduct": "Product",
+    "headColType": "Type",
+    "headColQtd": "Quantity",
+    "headColPrice": "Price",
+    "headColDate": "Date",
+    "headColAcoes": "Actions",
+    "semRegistros": "No registers",
+    "voucher": "Voucher",
+    "resgatar": "Redeem",
+    "pagar": "Pay",
+    "valorTotal": "Total amount",
+    "remove": "Remove",
+    "descontoAte": "Discount until:",
+    "edit": "Edit",
+    "responderQuestionario": "Answer survey",
+    "visualizar": "View",
+      
+    "comprar": "Buy",
+    "verMais": "See more",
+  
+    "mensagem": {
+      "obrigatorio": "Required",
+      "camposObrigatorios": "Please fill the required fields.",
+      "campoObrigatorio": "Please fill the required field.",
+      "confirmaPagamento": "Payment completed successfully!",
+      "valorPago": "Amount paid",
+      "idTransacao": "Your transaction id",
+      "msgRemover": "Are you sure you want to remove this type of answer?" 
+    }
+  }
+  

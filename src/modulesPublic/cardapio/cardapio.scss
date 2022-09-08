@@ -23,6 +23,16 @@
             border-radius: 5px;
             margin: 20px 30px;
             padding: 20px 30px;
+            &-img{
+                width: 100%;
+                overflow: hidden;
+                max-height: 100px;
+                margin-bottom: 10px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
             h2{
                 text-align: center;
             }
@@ -92,6 +102,9 @@
     .box-public-cardapio{
         .menu-cardapio{
             display: none;
+            button{
+                border-bottom: 1px solid var(--background-sidebar-hc);
+            }
             &.open{
                 position: absolute;
                 height: 100%;

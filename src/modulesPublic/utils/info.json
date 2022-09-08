@@ -1,48 +1,24 @@
 {
-    "nome": "Stoll",
+    "nome": "Stoll rock bar",
     "sobre": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+    "endereco": "QSA 25 LOTE 10 - TAGUATINGA SUL, Brasília - DF, 72015-250",
+    "horarioAtendimento": [
+    ],
     "programacao": [
         {
           "id": "1",
-          "img": "//picsum.photos/300/200?1"
+          "img": "http://127.0.0.1:5174/img/programa1.jpg"
         },
         {
           "id": "2",
-          "img": "//picsum.photos/300/200?2"
-        },
-        {
-          "id": "3",
-          "img": "//picsum.photos/300/200?3"
-        },
-        {
-          "id": "4",
-          "img": "//picsum.photos/300/200?4"
-        },
-        {
-          "id": "5",
-          "img": "//picsum.photos/300/200?5"
-        },
-        {
-          "id": "6",
-          "img": "//picsum.photos/300/200?6"
-        },
-        {
-          "id": "7",
-          "img": "//picsum.photos/300/200?7"
-        },
-        {
-          "id": "8",
-          "img": "//picsum.photos/300/200?8"
-        },
-        {
-          "id": "9",
-          "img": "//picsum.photos/300/200?9"
+          "img": "http://127.0.0.1:5174/img/programa2.jpg"
         }
       ],
     "cardapio": [
         {
             "id": "petiscos",
             "title": "Petiscos",
+            "img": "",
             "itens": [
               { "id": "batataFrita", "label": "Batata frita", "img": "", "descricaoBreve": "300g de Batata frita com molho", "descricao": "300g de Batata frita com molho especial, saboroso e ao estilo Stoll", "preco": "R$ 22,00" },
               { "id": "carneSol", "label": "Carne de sol", "img": "", "descricaoBreve": "500g de Carne de sol com Mandioca ou Batatas fritas", "descricao": "500g de Carne de sol com Mandioca ou Batatas fritas e um molho especial, saboroso e ao estilo Stoll", "preco": "R$ 55,00" }
@@ -51,6 +27,7 @@
         {
             "id": "drinks",
             "title": "Drink's",
+            "img": "",
             "itens": [
               { "id": "lagoaAzul", "label": "Lagoa azul", "img": "https://www.oliberal.com/image/contentid/policy:1.521635:1649700690/Lagoa-Azul.jpg?f=Default&$p$f=0fbcc87&w=720&$w=3b33d2d","descricaoBreve": "Lagoa Azul - Curaçau Blue, vodka e limonada",  "descricao": "Lagoa Azul, ou Blue Lagoon para os mais refinados, trata-se de um drink com baixo teor alcoólico e cor azulada bem marcante – daí, o nome – feito com uma bebida chamada Curaçau Blue, vodka e limonada, que além de uma aparência super atraente, possui um sabor delicioso, o que o torna favorito nas baladas", "preco": "R$ 22,00" },
               { "id": "caipirinha", "label": "Caipirinha", "img": "", "descricaoBreve": "Caipirinha diversos sabores", "descricao": "A caipirinha é uma bebida alcoólica brasileira, ou um coquetel de origem paulista, feita com cachaça, limão, açúcar e gelo.", "preco": "R$ 13,00" }
@@ -59,6 +36,7 @@
         {
             "id": "cervejas",
             "title": "Cervejas",
+            "img": "",
             "itens": [
               { "id": "chopp", "label": "Chopp tortuga", "img": "","descricaoBreve": "400ml Chopp artesanal tortuga",  "descricao": "Chopp artesanal, de Brasília muito saboroso e maltado.", "preco": "R$ 9,99" },
               { "id": "heineken", "label": "Heineken 600ml", "img": "", "descricaoBreve": "Heineken é uma cerveja lager Puro Malte", "descricao": "Heineken é uma cerveja lager Puro Malte, refrescante e de cor amarelo-dourado, produzida com ingredientes 100% naturais: água, malte e lúpulo. Durante o processo de fermentação da Heineken, a exclusiva Levedura A é responsável pelo sabor característico e bem equilibrado, com notas frutadas sutis.", "preco": "R$ 16,99" }

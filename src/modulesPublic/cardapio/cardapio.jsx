@@ -67,6 +67,9 @@ export default () => {
               info?.cardapio?.map(cardapio=> {
                 console.log(cardapio, 'cardapiocardapiocardapio');
                 return <div key={`cardapio-grupo-${cardapio.id}`} id={cardapio.id}>
+                  {cardapio?.img?<div className='info-cardapio-img'>
+                    <img src={cardapio.img} title={cardapio.title} />
+                  </div>:null}
                   <h3>{cardapio.title}</h3>
                 {
                   cardapio?.itens?.map(iten=> {

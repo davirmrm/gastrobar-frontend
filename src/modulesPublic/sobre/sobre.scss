@@ -32,6 +32,9 @@
     .box-public-sobre{
         .menu-sobre{
             display: none;
+            button{
+                border-bottom: 1px solid var(--background-sidebar-hc);
+            }
             &.open{
                 position: absolute;
                 display: block;

@@ -77,13 +77,16 @@ export default () => {
            <div className='box-program'>
               <ul>
                 {
-                  info.programacao?.map(e=>{
+                  info?.programacao?.map(e=>{
                     return (
                       <li key={`programacao-${e.id}`}><img className={`img${e.id}`} src={e.img} /></li>
                     )
                   })
                 }
               </ul>
+           </div>
+           <div className='geral-info'>
+             <p>{info?.endereco}</p>
            </div>
         </div>
       </div>

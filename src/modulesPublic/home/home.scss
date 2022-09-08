@@ -9,6 +9,10 @@
         width: 100%;
         overflow: auto;
         height: calc(100vh - 60px); 
+        color: var(--color-page-container);
+        .geral-info{
+            padding: 30px 15px 20px 15px;
+        }
     }
     .carrousel-program{
         position: relative;
@@ -70,6 +74,9 @@
     .box-public-home{
         .menu-home{
             display: none;
+            button{
+                border-bottom: 1px solid var(--background-sidebar-hc);
+            }
             &.open{
                 position: absolute;
                 display: block;

@@ -29,7 +29,7 @@
             "title": "Drink's",
             "img": "",
             "itens": [
-              { "id": "lagoaAzul", "label": "Lagoa azul", "img": "https://www.oliberal.com/image/contentid/policy:1.521635:1649700690/Lagoa-Azul.jpg?f=Default&$p$f=0fbcc87&w=720&$w=3b33d2d","descricaoBreve": "Lagoa Azul - Curaçau Blue, vodka e limonada",  "descricao": "Lagoa Azul, ou Blue Lagoon para os mais refinados, trata-se de um drink com baixo teor alcoólico e cor azulada bem marcante – daí, o nome – feito com uma bebida chamada Curaçau Blue, vodka e limonada, que além de uma aparência super atraente, possui um sabor delicioso, o que o torna favorito nas baladas", "preco": "R$ 22,00" },
+              { "id": "lagoaAzul", "label": "Lagoa azul", "img": "http://127.0.0.1:5174/img/lagoaAzul.jpg","descricaoBreve": "Lagoa Azul - Curaçau Blue, vodka e limonada",  "descricao": "Lagoa Azul, ou Blue Lagoon para os mais refinados, trata-se de um drink com baixo teor alcoólico e cor azulada bem marcante – daí, o nome – feito com uma bebida chamada Curaçau Blue, vodka e limonada, que além de uma aparência super atraente, possui um sabor delicioso, o que o torna favorito nas baladas", "preco": "R$ 22,00" },
               { "id": "caipirinha", "label": "Caipirinha", "img": "", "descricaoBreve": "Caipirinha diversos sabores", "descricao": "A caipirinha é uma bebida alcoólica brasileira, ou um coquetel de origem paulista, feita com cachaça, limão, açúcar e gelo.", "preco": "R$ 13,00" }
             ]
         },

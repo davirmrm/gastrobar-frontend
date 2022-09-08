@@ -16,7 +16,7 @@ export default () => {
   const menu = [
     {
       id: 'home',
-      label: 'Home'
+      label: 'Programação'
     },
     {
       id: 'cardapio',

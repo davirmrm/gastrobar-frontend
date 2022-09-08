@@ -99,6 +99,10 @@
             }
         }
         .box-cardapio{
+            .info-cardapio{
+                margin: 20px 10px;
+                padding: 20px 20px;
+            }
             .cardapio-info{
                 flex-direction: column;
                 &-content{

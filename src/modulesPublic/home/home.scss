@@ -23,6 +23,22 @@
                     height: auto;
                 }
             }
+            &-social{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                >div{
+                    margin-right: 20px;
+                    cursor: pointer;
+                    &:last-child{
+                        margin: 0;
+                    }
+                    svg{
+                        font-size: 30px;
+                    }
+                }
+            }
         }
     }
     .carrousel-program{

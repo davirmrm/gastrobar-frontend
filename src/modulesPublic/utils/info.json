@@ -1,6 +1,6 @@
 {
     "nome": "Stoll rock bar",
-    "sobre": "<p><strong>Estol (do inglês stoll)</strong>, e um termo utilizado em aviação e aerodinâmica que indica a <strong>perda de sustentação</strong>(separação do fluxo de ar do extradorso da asa).<p><p>Uma aeronave em situação de stoll, não está voando mas sim caindo. Perde velocidade e, consequentemente, de altitude</p><hr /><p>Conversa em mesa de bar<br /> É pura filosofia.<br /> Exerço a boemia.<br /> Divago aré pelo nada <br /> Entro pela madrugada <br /> Na busca do sol nascente <br /> Faço parte do ambiente <br /> BEbo uma 'loura gelada' </p>",
+    "sobre": "<p><strong>Stoll Rock bar</strong> - É um bar e cozinha estilo de rock, onde temos a possibilidade de tomar umas cervejas ouvindo boa música para relaxar depois de um dia cansativo de trabalho.</p><br /><br /><p><strong>Estol (do inglês stoll)</strong>, e um termo utilizado em aviação e aerodinâmica que indica a <strong>perda de sustentação</strong>(separação do fluxo de ar do extradorso da asa).<p><p>Uma aeronave em situação de stoll, não está voando mas sim caindo. Perde velocidade e, consequentemente, de altitude</p><hr /><p style='text-align: center'>Conversa em mesa de bar<br /> É pura filosofia.<br /> Exerço a boemia.<br /> Divago aré pelo nada <br /> Entro pela madrugada <br /> Na busca do sol nascente <br /> Faço parte do ambiente <br /> Bebo uma 'loura gelada' <br /> Suave, leve ou encorpada <br /> Não curto ser coerente <br /> Quando da última conversa <br /> Que tive num botequim <br /> Entre uma dose de Gim <br /> E uma cerveja gelada <br /> Entre uma e outra risada <br /> Cim uma caneta a anotar <br /> Cada um pôs-se a lembrar <br /> Nomes engraçados, jocosos <br /> Diferentes, curiosos <br /> Que se arranja para um Bar <br /> Quatro e trinta da madrugada <br /> Esgotado o repertório <br /> Cerveja quente no empório <br /> Cumprido o determinado <br /> Escrito o que foi lembrado <br /> Até a caneta ta tonta <br /> O sol no céu já desponta <br /> O táxi fora esperado <br /> Um pouco cambaleando <br /> Peço UM CAFÉ E A CONTA. </p><p style='text-align: right'>Celso Cruz(Brocoió)</p>",
     "endereco": "QSA 25 LOTE 10 - TAGUATINGA SUL, Brasília - DF, 72015-250",
     "horarioAtendimento": [
     ],
@@ -20,6 +20,14 @@
             "title": "Cervejas 600ml",
             "img": "",
             "itens": [
+              { 
+                "id": "Chopp", 
+                "label": "Chopp Tortuga", 
+                "img": "", 
+                "descricaoBreve": "Caneca de 400ml, Chopp artesanal do Tortuga", 
+                "descricao": "caneca de 400ml, Chopp artesanal do Tortuga", 
+                "preco": "R$ 9,90" 
+              },
               { 
                 "id": "heineken", 
                 "label": "Heineken", 
@@ -102,10 +110,10 @@
               },
               { 
                 "id": "wienbierLata", 
-                "label": "Wienbier (lata 710ml)", 
+                "label": "Wienbier", 
                 "img": "", 
-                "descricaoBreve": "", 
-                "descricao": "", 
+                "descricaoBreve": "Lata 710ml", 
+                "descricao": "Lata 710ml", 
                 "preco": "R$ 14,90" 
               }              
             ]
@@ -163,28 +171,60 @@
           "img": "",
           "itens": [
             { 
-              "id": "heineken", 
-              "label": "Heineken", 
+              "id": "GynNacional", 
+              "label": "Gyn Nacional", 
               "img": "", 
               "descricaoBreve": "", 
               "descricao": "", 
-              "preco": "R$ 16,90" 
+              "preco": "R$ 23,90" 
             },
             { 
-              "id": "heineken", 
-              "label": "Heineken", 
+              "id": "GynTanquery", 
+              "label": "Gyn Tanquery", 
               "img": "", 
               "descricaoBreve": "", 
               "descricao": "", 
-              "preco": "R$ 16,90" 
+              "preco": "R$ 27,90" 
             },
             { 
-              "id": "heineken", 
-              "label": "Heineken", 
+              "id": "DrinkSTOLL", 
+              "label": "Drink STOLL", 
+              "img": "", 
+              "descricaoBreve": "Vodka, soda, sabores", 
+              "descricao": "Vodka, soda, sabores", 
+              "preco": "R$ 19,90" 
+            },
+            { 
+              "id": "Mojito", 
+              "label": "Mojito", 
+              "img": "", 
+              "descricaoBreve": "Rum branco", 
+              "descricao": "Rum branco", 
+              "preco": "R$ 21,90" 
+            },
+            { 
+              "id": "Caipirinha", 
+              "label": "Caipirinha", 
+              "img": "", 
+              "descricaoBreve": "Sabores: Limão, Abacaxi, Morango.", 
+              "descricao": "Sabores: Limão, Abacaxi, Morango.", 
+              "preco": "R$ 12,90" 
+            },
+            { 
+              "id": "caipiroska", 
+              "label": "Caipiroska", 
+              "img": "", 
+              "descricaoBreve": "Sabores: Limão, Abacaxi, Morango.", 
+              "descricao": "Sabores: Limão, Abacaxi, Morango.", 
+              "preco": "R$ 13,90" 
+            },
+            { 
+              "id": "cubaLibre", 
+              "label": "Cuba Libre", 
               "img": "", 
               "descricaoBreve": "", 
               "descricao": "", 
-              "preco": "R$ 16,90" 
+              "preco": "R$ 11,90" 
             },
             { 
               "id": "heineken", 
@@ -197,30 +237,406 @@
           ]
         },
         {
+            "id": "Shot",
+            "title": "Shot",
+            "img": "",
+            "itens": [
+              { 
+                "id": "amarula", 
+                "label": "Amarula", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 15,90" 
+              },
+              { 
+                "id": "JoseCuervo", 
+                "label": "José Cuervo", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 18,90" 
+              },
+              { 
+                "id": "RedLabel", 
+                "label": "Red Label", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 14,90" 
+              },
+              { 
+                "id": "BlackLabel", 
+                "label": "Black Label", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 19,90" 
+              },
+              { 
+                "id": "OldParr", 
+                "label": "Old Parr", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 18,90" 
+              },
+              { 
+                "id": "JackDaniels", 
+                "label": "Jack Daniels", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 18,90" 
+              },
+              { 
+                "id": "Buchannas", 
+                "label": "Buchannas", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 22,90" 
+              },
+              { 
+                "id": "Teachers", 
+                "label": "Teacher's", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 12,90" 
+              },
+              { 
+                "id": "Ballantines", 
+                "label": "Ballantines", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 12,90" 
+              }
+            ]
+        },
+        {
+            "id": "dose",
+            "title": "Dose",
+            "img": "",
+            "itens": [
+              { 
+                "id": "Seleta", 
+                "label": "Seleta", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "Salinas", 
+                "label": "Salinas", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "Cabare", 
+                "label": "Cabaré", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "Bananinha", 
+                "label": "Bananinha", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "DoPiloto", 
+                "label": "Do Piloto", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "VodkaOrloff", 
+                "label": "Vodka Orloff", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "VodkaSmirnoff", 
+                "label": "Vodka Smirnoff", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 9,90" 
+              },
+              { 
+                "id": "VodkaCiroc", 
+                "label": "Vodka Ciroc", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 19,90" 
+              },
+              { 
+                "id": "Absolut", 
+                "label": "Absolut", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 15,90" 
+              },
+              { 
+                "id": "Gyn", 
+                "label": "Gyn", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 15,90" 
+              },
+              { 
+                "id": "Campari", 
+                "label": "Campari", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 11,90" 
+              },
+              { 
+                "id": "Martini", 
+                "label": "Martini", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 11,90" 
+              }
+            ]
+        },
+        {
+            "id": "Coquetel",
+            "title": "Coquetel",
+            "img": "",
+            "itens": [
+              { 
+                "id": "SmirnoffIce", 
+                "label": "Smirnoff Ice", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 9,90" 
+              },
+              { 
+                "id": "51Ice", 
+                "label": "51 Ice", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 8,90" 
+              },
+              { 
+                "id": "CabareIce", 
+                "label": "Cabare Ice", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 8,90" 
+              },
+              { 
+                "id": "KeepCooler", 
+                "label": "Keep Cooler", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 8,90" 
+              }
+            ]
+        },
+        {
+            "id": "BebidasSemAlcool",
+            "title": "Bebidas Sem Alcool",
+            "img": "",
+            "itens": [
+              { 
+                "id": "CocacolaLata", 
+                "label": "Coca cola", 
+                "img": "", 
+                "descricaoBreve": "Lata", 
+                "descricao": "Lata", 
+                "preco": "R$ 5,90" 
+              },
+              { 
+                "id": "GuaranaAntartica", 
+                "label": "Guaraná antartica", 
+                "img": "", 
+                "descricaoBreve": "Lata", 
+                "descricao": "Lata", 
+                "preco": "R$ 5,90" 
+              },
+              { 
+                "id": "Schweppes", 
+                "label": "Schweppes", 
+                "img": "", 
+                "descricaoBreve": "Lata", 
+                "descricao": "Lata", 
+                "preco": "R$ 5,90" 
+              },
+              { 
+                "id": "Suco", 
+                "label": "Suco", 
+                "img": "", 
+                "descricaoBreve": "Lata", 
+                "descricao": "Lata", 
+                "preco": "R$ 6,90" 
+              },
+              { 
+                "id": "SucoLaranja", 
+                "label": "Suco de Laranja", 
+                "img": "", 
+                "descricaoBreve": "400ml de suco natural", 
+                "descricao": "400ml de suco natural", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "H2O", 
+                "label": "H2O", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 7,90" 
+              },
+              { 
+                "id": "AguaMineral", 
+                "label": "Agua Mineral", 
+                "img": "", 
+                "descricaoBreve": "Com ou sem Gás", 
+                "descricao": "Com ou sem Gás", 
+                "preco": "R$ 4,90" 
+              },
+              { 
+                "id": "AguaCoco", 
+                "label": "Agua de Coco", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 5,90" 
+              },
+              { 
+                "id": "monster", 
+                "label": "Monster", 
+                "img": "", 
+                "descricaoBreve": "Lata", 
+                "descricao": "Lata", 
+                "preco": "R$ 14,90" 
+              },
+              { 
+                "id": "redBull", 
+                "label": "Red Bull", 
+                "img": "", 
+                "descricaoBreve": "Lata", 
+                "descricao": "Lata", 
+                "preco": "R$ 15,90" 
+              }
+            ]
+        },
+        {
             "id": "petiscos",
             "title": "Petiscos",
             "img": "",
             "itens": [
-              { "id": "batataFrita", "label": "Batata frita", "img": "", "descricaoBreve": "300g de Batata frita com molho", "descricao": "300g de Batata frita com molho especial, saboroso e ao estilo Stoll", "preco": "R$ 22,00" },
-              { "id": "carneSol", "label": "Carne de sol", "img": "", "descricaoBreve": "500g de Carne de sol com Mandioca ou Batatas fritas", "descricao": "500g de Carne de sol com Mandioca ou Batatas fritas e um molho especial, saboroso e ao estilo Stoll", "preco": "R$ 55,00" }
-            ]
-        },
-        {
-            "id": "drinks",
-            "title": "Drink's",
-            "img": "",
-            "itens": [
-              { "id": "lagoaAzul", "label": "Lagoa azul", "img": "http://127.0.0.1:5174/img/lagoaAzul.jpg","descricaoBreve": "Lagoa Azul - Curaçau Blue, vodka e limonada",  "descricao": "Lagoa Azul, ou Blue Lagoon para os mais refinados, trata-se de um drink com baixo teor alcoólico e cor azulada bem marcante – daí, o nome – feito com uma bebida chamada Curaçau Blue, vodka e limonada, que além de uma aparência super atraente, possui um sabor delicioso, o que o torna favorito nas baladas", "preco": "R$ 22,00" },
-              { "id": "caipirinha", "label": "Caipirinha", "img": "", "descricaoBreve": "Caipirinha diversos sabores", "descricao": "A caipirinha é uma bebida alcoólica brasileira, ou um coquetel de origem paulista, feita com cachaça, limão, açúcar e gelo.", "preco": "R$ 13,00" }
-            ]
-        },
-        {
-            "id": "cervejas",
-            "title": "Cervejas",
-            "img": "",
-            "itens": [
-              { "id": "chopp", "label": "Chopp tortuga", "img": "","descricaoBreve": "400ml Chopp artesanal tortuga",  "descricao": "Chopp artesanal, de Brasília muito saboroso e maltado.", "preco": "R$ 9,99" },
-              { "id": "heineken", "label": "Heineken 600ml", "img": "", "descricaoBreve": "Heineken é uma cerveja lager Puro Malte", "descricao": "Heineken é uma cerveja lager Puro Malte, refrescante e de cor amarelo-dourado, produzida com ingredientes 100% naturais: água, malte e lúpulo. Durante o processo de fermentação da Heineken, a exclusiva Levedura A é responsável pelo sabor característico e bem equilibrado, com notas frutadas sutis.", "preco": "R$ 16,99" }
+              { 
+                "id": "batataFrita", 
+                "label": "Batata frita", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 22,90" 
+              },
+              { 
+                "id": "CalabresaAcebolada", 
+                "label": "Calabresa Acebolada", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 22,90" 
+              },
+              { 
+                "id": "CalabresaFrita", 
+                "label": "Calabresa com Frita", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 29,90" 
+              },
+              { 
+                "id": "CarneSol", 
+                "label": "Carne de sol", 
+                "img": "", 
+                "descricaoBreve": "Com Fritas ou Mandioca", 
+                "descricao": "", 
+                "preco": "R$ 59,90" 
+              },
+              { 
+                "id": "FrangoPassarinho", 
+                "label": "Frango a passarinho", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 29,90" 
+              },
+              { 
+                "id": "IscaFrango", 
+                "label": "Isca de frango", 
+                "img": "", 
+                "descricaoBreve": "Isca de frango empanada", 
+                "descricao": "Isca de frango empanada", 
+                "preco": "R$ 29,90" 
+              },
+              { 
+                "id": "IscaContraFile", 
+                "label": "Isca contra filé", 
+                "img": "", 
+                "descricaoBreve": "Isca contra filé com fritas", 
+                "descricao": "Isca contra filé com fritas", 
+                "preco": "R$ 45,90" 
+              },
+              { 
+                "id": "Tilapiaempanada", 
+                "label": "Tilapia empanada", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 35,90" 
+              },
+              { 
+                "id": "LinguicaSuina", 
+                "label": "Linguiça Suina", 
+                "img": "", 
+                "descricaoBreve": "Com ou sem Pimenta", 
+                "descricao": "Com ou sem Pimenta", 
+                "preco": "R$ 29,90" 
+              },
+              { 
+                "id": "QuibesApimentados", 
+                "label": "Quibes Apimentados", 
+                "img": "", 
+                "descricaoBreve": "20 unidades", 
+                "descricao": "20 unidades", 
+                "preco": "R$ 22,90" 
+              },
+              { 
+                "id": "STOLLROCKMIX", 
+                "label": "STOLL ROCK MIX", 
+                "img": "", 
+                "descricaoBreve": "Linguiça apimentada, batata frita, isca de frango e quibes.", 
+                "descricao": "Linguiça apimentada, batata frita, isca de frango e quibes.", 
+                "preco": "R$ 59,90" 
+              }
             ]
         }
     ]

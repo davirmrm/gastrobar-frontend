@@ -12,6 +12,8 @@
         background-color: var(--background-sidebar);
         color: var(--color-sidebar);
         border-right: 1px solid var(--background-sidebar-h);
+        width: 260px;
+        overflow: auto;
     }
     .box-cardapio{
         width: 100%;

@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://davirmrm.github.io/gastrobar-frontend/",
+  "homepage": "./",
   "scripts": {
     "predeploy":"npm run build",
-    "deploy":"gh-pages -b master -d build",
+    "deploy":"gh-pages -d build",
     "dev": "vite",
     "start": "vite",
     "build": "vite build",

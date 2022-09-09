@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://davirmrm.github.io/",
+  "homepage": "./",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",

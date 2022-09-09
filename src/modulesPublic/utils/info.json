@@ -1,6 +1,6 @@
 {
     "nome": "Stoll rock bar",
-    "sobre": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+    "sobre": "<p><strong>Estol (do inglês stoll)</strong>, e um termo utilizado em aviação e aerodinâmica que indica a <strong>perda de sustentação</strong>(separação do fluxo de ar do extradorso da asa).<p><p>Uma aeronave em situação de stoll, não está voando mas sim caindo. Perde velocidade e, consequentemente, de altitude</p><hr /><p>Conversa em mesa de bar<br /> É pura filosofia.<br /> Exerço a boemia.<br /> Divago aré pelo nada <br /> Entro pela madrugada <br /> Na busca do sol nascente <br /> Faço parte do ambiente <br /> BEbo uma 'loura gelada' </p>",
     "endereco": "QSA 25 LOTE 10 - TAGUATINGA SUL, Brasília - DF, 72015-250",
     "horarioAtendimento": [
     ],
@@ -15,6 +15,187 @@
         }
       ],
     "cardapio": [
+        {
+            "id": "cervejas600",
+            "title": "Cervejas 600ml",
+            "img": "",
+            "itens": [
+              { 
+                "id": "heineken", 
+                "label": "Heineken", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "Heineken é uma cerveja lager Puro Malte, refrescante e de cor amarelo-dourado, produzida com ingredientes 100% naturais: água, malte e lúpulo. Durante o processo de fermentação da Heineken, a exclusiva Levedura A é responsável pelo sabor característico e bem equilibrado, com notas frutadas sutis.", 
+                "preco": "R$ 16,90" 
+              },
+              { 
+                "id": "amstel", 
+                "label": "Amstel", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 12,90" 
+              },
+              { 
+                "id": "budwiser", 
+                "label": "Budwiser", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 13,90" 
+              },
+              { 
+                "id": "petra", 
+                "label": "Petra", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 11,90" 
+              },
+              { 
+                "id": "eisenbahn", 
+                "label": "Einsenbahn", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 13,90" 
+              },
+              { 
+                "id": "serramalte", 
+                "label": "Serramalte", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 14,90" 
+              },
+              { 
+                "id": "stellaArtois", 
+                "label": "Stella Artois", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 14,90" 
+              },
+              { 
+                "id": "brahmaDuploMalte", 
+                "label": "Brahma Duplo Malte", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 12,90" 
+              },
+              { 
+                "id": "blackPrincess", 
+                "label": "Black Princess", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 13,90" 
+              },
+              { 
+                "id": "blackPrincessIPA", 
+                "label": "Black Princess IPA", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 22,90" 
+              },
+              { 
+                "id": "wienbierLata", 
+                "label": "Wienbier (lata 710ml)", 
+                "img": "", 
+                "descricaoBreve": "", 
+                "descricao": "", 
+                "preco": "R$ 14,90" 
+              }              
+            ]
+        },
+        {
+          "id": "cervejasLongNeck",
+          "title": "Cervejas Long Neck",
+          "img": "",
+          "itens": [
+            { 
+              "id": "heineken", 
+              "label": "Heineken", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "Heineken é uma cerveja lager Puro Malte, refrescante e de cor amarelo-dourado, produzida com ingredientes 100% naturais: água, malte e lúpulo. Durante o processo de fermentação da Heineken, a exclusiva Levedura A é responsável pelo sabor característico e bem equilibrado, com notas frutadas sutis.", 
+              "preco": "R$ 9,90" 
+            },
+            { 
+              "id": "budwiser", 
+              "label": "Budwiser", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 8,90" 
+            },
+            { 
+              "id": "eisenbahn", 
+              "label": "Einsenbahn", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 8,90" 
+            },
+            { 
+              "id": "stellaArtois", 
+              "label": "Stella Artois", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 8,90" 
+            },
+            { 
+              "id": "heineken", 
+              "label": "Heineken", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 16,90" 
+            }
+          ]
+        }, 
+        {
+          "id": "drinks",
+          "title": "Drinks",
+          "img": "",
+          "itens": [
+            { 
+              "id": "heineken", 
+              "label": "Heineken", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 16,90" 
+            },
+            { 
+              "id": "heineken", 
+              "label": "Heineken", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 16,90" 
+            },
+            { 
+              "id": "heineken", 
+              "label": "Heineken", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 16,90" 
+            },
+            { 
+              "id": "heineken", 
+              "label": "Heineken", 
+              "img": "", 
+              "descricaoBreve": "", 
+              "descricao": "", 
+              "preco": "R$ 16,90" 
+            }
+          ]
+        },
         {
             "id": "petiscos",
             "title": "Petiscos",

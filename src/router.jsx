@@ -47,7 +47,7 @@ const PrivateRoute = ({ component: Component, path }) => {
   }
 
 }
-
+  
 export default () => {
   const { load } = useSelector(state => state.layoutState)
   return (

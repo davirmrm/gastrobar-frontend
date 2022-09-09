@@ -2,7 +2,18 @@
     "nome": "Stoll rock bar",
     "sobre": "<p><strong>Stoll Rock bar</strong> - É um bar e cozinha estilo de rock, onde temos a possibilidade de tomar umas cervejas ouvindo boa música para relaxar depois de um dia cansativo de trabalho.</p><br /><br /><p><strong>Estol (do inglês stoll)</strong>, e um termo utilizado em aviação e aerodinâmica que indica a <strong>perda de sustentação</strong>(separação do fluxo de ar do extradorso da asa).<p><p>Uma aeronave em situação de stoll, não está voando mas sim caindo. Perde velocidade e, consequentemente, de altitude</p><hr /><p style='text-align: center'>Conversa em mesa de bar<br /> É pura filosofia.<br /> Exerço a boemia.<br /> Divago aré pelo nada <br /> Entro pela madrugada <br /> Na busca do sol nascente <br /> Faço parte do ambiente <br /> Bebo uma 'loura gelada' <br /> Suave, leve ou encorpada <br /> Não curto ser coerente <br /> Quando da última conversa <br /> Que tive num botequim <br /> Entre uma dose de Gim <br /> E uma cerveja gelada <br /> Entre uma e outra risada <br /> Cim uma caneta a anotar <br /> Cada um pôs-se a lembrar <br /> Nomes engraçados, jocosos <br /> Diferentes, curiosos <br /> Que se arranja para um Bar <br /> Quatro e trinta da madrugada <br /> Esgotado o repertório <br /> Cerveja quente no empório <br /> Cumprido o determinado <br /> Escrito o que foi lembrado <br /> Até a caneta ta tonta <br /> O sol no céu já desponta <br /> O táxi fora esperado <br /> Um pouco cambaleando <br /> Peço UM CAFÉ E A CONTA. </p><p style='text-align: right'>Celso Cruz(Brocoió)</p>",
     "endereco": "QSA 25 LOTE 10 - TAGUATINGA SUL, Brasília - DF, 72015-250",
-    "horarioAtendimento": [
+    "horarioAtendimento": [],
+    "social": [
+      {
+        "id": "instagram",
+        "name": "Instagram",
+        "url": "https://www.instagram.com/stoll_rock_bar_/"
+      },
+      {
+        "id": "facebook",
+        "name": "Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100071620209281"
+      }
     ],
     "programacao": [
         {
@@ -29,7 +40,7 @@
                 "preco": "R$ 9,90" 
               },
               { 
-                "id": "heineken", 
+                "id": "heineken600", 
                 "label": "Heineken", 
                 "img": "", 
                 "descricaoBreve": "", 

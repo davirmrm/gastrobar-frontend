@@ -25,6 +25,7 @@ export default () => {
   ]
   const menuHandle = e =>{
     console.log(e, 'menuHandle');
+    dispatch(setSidebarLeft(!sidebarLeft))
     history.push(e.id === 'home' ? '/' : e.id)
   }
 

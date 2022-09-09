@@ -5,7 +5,7 @@ import info from '../utils/info.json'
 import infoLogo from '../utils/logo.png'
 
 import './home.scss'
-import { IcoDotsHorizontalTriple, IcoLogo1, IcoMenu, Menu } from '../../components'
+import { IcoDotsHorizontalTriple, IcoFacebook, IcoInstagram, IcoLogo1, IcoMenu, IcoMinus, IcoPin, Menu } from '../../components'
 import { setSidebarLeft } from '../../layout/redux/layoutActions'
 import { useDispatch, useSelector } from 'react-redux'
 
@@ -25,6 +25,7 @@ export default () => {
   ]
   const menuHandle = e =>{
     console.log(e, 'menuHandle');
+    dispatch(setSidebarLeft(!sidebarLeft))
     history.push(e.id === 'home' ? '/' : e.id)
   }
 
@@ -36,6 +37,17 @@ export default () => {
     console.log(increase, liEls, 'liElsliElsliElsliElsliElsliElsliElsliElsliElsliElsliElsliEls', index);
     liEls[index].scrollIntoView({behavior: 'smooth'});
 
+  }
+
+  const socialIco = e =>{
+    switch (e) {
+      case 'instagram':
+        return <IcoInstagram />
+      case 'facebook':
+        return <IcoFacebook />
+      default:
+        return <></>
+    }
   }
 
   return (
@@ -74,7 +86,7 @@ export default () => {
             </ul>
             <button className='next' onClick={e=> handleImg(+1)}>&gt;</button>
           </div> */}
-           <div className='box-program'>
+           {/* <div className='box-program'>
               <ul>
                 {
                   info?.programacao?.map(e=>{
@@ -84,9 +96,25 @@ export default () => {
                   })
                 }
               </ul>
-           </div>
+           </div> */}
            <div className='geral-info'>
-             <p>{info?.endereco}</p>
+            <div className='geral-info-logo'>
+              <img src={infoLogo} title={info.nome} />
+            </div>
+            <p><IcoPin /> {info?.endereco}</p>
+            <div className='geral-info-social'>
+                {
+                  info?.social?.map(e=>{
+                    console.log(e, 'kkk');
+                    return <div 
+                      key={`social-${e.id}`} 
+                      onClick={_=> e.url?window.open(e.url):null}
+                    >
+                      {socialIco(e.id)}
+                    </div>
+                  })
+                }
+            </div>
            </div>
         </div>
       </div>

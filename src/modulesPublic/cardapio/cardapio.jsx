@@ -24,6 +24,7 @@ export default () => {
 
   const menuHandle = e =>{
     console.log(e, 'menuHandle');
+    dispatch(setSidebarLeft(!sidebarLeft))
     history.push(e.id === 'home' ? '/' : e.id)
   }
 
@@ -71,9 +72,9 @@ export default () => {
                   </div>:null}
                   <h3>{cardapio.title}</h3>
                 {
-                  cardapio?.itens?.map(iten=> {
+                  cardapio?.itens?.map((iten, i)=> {
                     return (
-                      <div className='cardapio-info' key={`cardapio-${iten.id}`} onClick={()=> dispatch(detalharProduto(iten))}>
+                      <div className='cardapio-info' key={`cardapio-${iten.id}-${i}`} onClick={()=> dispatch(detalharProduto(iten))}>
                         {iten?.img?<div className='cardapio-info-img'>
                           <img src={iten.img} title={iten.label} />
                         </div>:null}

@@ -40,3 +40,6 @@ export * from './download'
 export * from './filters'
 export * from './check-with-circular-arrows'
 export * from './draw-polygon'
+
+export * from './facebook'
+export * from './instagram'

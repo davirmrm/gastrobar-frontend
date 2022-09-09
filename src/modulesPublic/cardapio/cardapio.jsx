@@ -56,7 +56,7 @@ export default () => {
           <Menu data={menu} action={e=> menuHandle(e)} />
           <div className="menu">
             {
-              info?.cardapio?.map(e=> <button onClick={()=> menuHandleItens(e)}>{e.title}</button>)
+              info?.cardapio?.map(e=> <button onClick={()=> menuHandleItens(e)} key={`menu-btn-${e.id}`}>{e.title}</button>)
             }
           </div>
         </div>
@@ -65,7 +65,6 @@ export default () => {
             <h2>Cardápio</h2>
             {
               info?.cardapio?.map(cardapio=> {
-                console.log(cardapio, 'cardapiocardapiocardapio');
                 return <div key={`cardapio-grupo-${cardapio.id}`} id={cardapio.id}>
                   {cardapio?.img?<div className='info-cardapio-img'>
                     <img src={cardapio.img} title={cardapio.title} />
@@ -73,7 +72,6 @@ export default () => {
                   <h3>{cardapio.title}</h3>
                 {
                   cardapio?.itens?.map(iten=> {
-                    console.log(iten, 'iteniteniteniteniteniten');
                     return (
                       <div className='cardapio-info' key={`cardapio-${iten.id}`} onClick={()=> dispatch(detalharProduto(iten))}>
                         {iten?.img?<div className='cardapio-info-img'>

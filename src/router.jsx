@@ -59,9 +59,9 @@ export default () => {
         <Route exact path='/recuperar/senha' component={recuperarSenha} />
         <Route exact path='/recuperar/senha/:idUser' component={recuperarSenha} />
 
-        <Route exact path='/gastrobar-frontend/' component={homePublic} />
-        <Route exact path='/gastrobar-frontend/cardapio' component={cardapioPublic} />
-        <Route exact path='/gastrobar-frontend/sobre' component={sobrePublic} />
+        <Route exact path='/' component={homePublic} />
+        <Route exact path='/cardapio' component={cardapioPublic} />
+        <Route exact path='/sobre' component={sobrePublic} />
 
         <PrivateRoute path='/home' exact component={Home} />
         <PrivateRoute path='/colaboradores' exact component={colaboradores} />
